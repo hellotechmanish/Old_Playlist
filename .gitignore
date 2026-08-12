@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build / distribution
+dist/
+build/
+out/
+target/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Coverage
+coverage/
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Secrets / credentials
+*.pem
+*.key
+credentials.json
+secrets.json
